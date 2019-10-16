@@ -27,4 +27,5 @@ import kotlin.math.pow
 
 fun main() {
     //Write your code below this line
+    println("${5.2/(0.48*0.48)}")
 }

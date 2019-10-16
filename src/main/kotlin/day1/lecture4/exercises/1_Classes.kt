@@ -19,6 +19,13 @@ package day1.lecture4.exercises
  * Create an instance of SimpleSpice.
  *
  */
+class SimpleSpice(val name: String="curry",val spiciness: String="mild")
+{
+    val heat: Int=if (spiciness.equals("mild")) 5 else 0
+    init { println("$name: $heat") }
+}
+
 fun main() {
     //Write your code below this line
+    SimpleSpice()
 }

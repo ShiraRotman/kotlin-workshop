@@ -10,10 +10,9 @@ package day1.lecture3.exercises
  */
 
 fun main() {
-
     val spices = listOf("curry", "pepper", "cayenne", "ginger", "red curry", "green curry", "red pepper" )
-
     //create the filters here
-
-
+    println(spices.filter { it.endsWith("curry") }.sortedWith(compareBy { it.length }))
+    println(spices.filter { it.startsWith('c') && it.endsWith('e') })
+    println(spices.subList(0,3).filter { it.startsWith('c') })
 }

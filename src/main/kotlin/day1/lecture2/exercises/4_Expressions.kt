@@ -5,13 +5,13 @@ package day1.lecture2.exercises
  */
 fun main() {
     //Uncomment when done
-//    assert(returnLastNameWithIf("Hadas") == "Peled")
-//    assert(returnLastNameWithIf("Gil") == "Unknown")
-//
-//    assert(returnLastNameWithWhenStatment("Hadas") == "Peled")
-//    assert(returnLastNameWithWhenStatment("Gil") == "Goldzweig")
-//    assert(returnLastNameWithWhenStatment("Eden") == "Bugdary")
-//    assert(returnLastNameWithWhenStatment("Refael") == "Unknown")
+    assert(returnLastNameWithIf("Hadas") == "Peled")
+    assert(returnLastNameWithIf("Gil") == "Unknown")
+
+    assert(returnLastNameWithWhenStatement("Hadas") == "Peled")
+    assert(returnLastNameWithWhenStatement("Gil") == "Goldzweig")
+    assert(returnLastNameWithWhenStatement("Eden") == "Bugdary")
+    assert(returnLastNameWithWhenStatement("Refael") == "Unknown")
     //Uncomment when done
 }
 
@@ -21,14 +21,11 @@ fun main() {
  * @return "Peled" if first name is "Hadas"
  * @return "Unknown" if anything else
  */
-//fun returnLastNameWithIf(firstName: String): String {
-//    //Write your code below this line
-////    return if (firstName) {
-////
-////    } else {
-////
-////    }
-//}
+fun returnLastNameWithIf(firstName: String): String {
+    //Write your code below this line
+    return if (firstName.equals("Hadas")) "Peled"
+    else "Unknown";
+}
 
 /**
  * return the person last name using a [when] expression based on first name
@@ -38,10 +35,12 @@ fun main() {
  * @return "Bugdary" if first name is "Eden"
  * @return "Unknown" if the first name is not "Gil" or "Hadas" or "Eden"
  */
-//fun returnLastNameWithWhenStatement(firstName: String): String {
-//    //Write your code below this line
-////    return when (firstName) {
-////
-////    }
-//    return ""
-//}
+fun returnLastNameWithWhenStatement(firstName: String): String {
+    //Write your code below this line
+    return when (firstName) {
+        "Hadas" -> "Peled"
+        "Gil" -> "Goldzweig"
+        "Eden" -> "Bugdary"
+        else -> "Unknown"
+    }
+}

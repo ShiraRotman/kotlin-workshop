@@ -9,4 +9,6 @@ package day1.lecture1.exercises
  */
 fun main() {
     // Write your code below this line
+    var nullable: Int?=null;
+    println(nullable?.plus(1)?:0);
 }

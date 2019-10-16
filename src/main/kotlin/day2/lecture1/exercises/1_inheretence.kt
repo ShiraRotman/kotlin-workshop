@@ -13,7 +13,15 @@ package day2.lecture1.exercises
 //Modify the code below this line
 
 //class Book
-
-
+open class Book(val title: String,val author: String)
+{
+    private var currentPage=1;
+    open fun readPage() { currentPage++; }
+}
 //class eBook
+class EBook(title: String,author: String,val format: String="text"): Book(title,author)
+{
+    private var words=1;
+    override fun readPage() { words+=250; }
+}
 

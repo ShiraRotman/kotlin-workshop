@@ -12,4 +12,7 @@ package day1.lecture1.exercises
 
 fun main() {
     //Write your code here
+    println(13+13);
+    println(42.minus(13));
+    println((42.0/4));
 }

@@ -22,4 +22,6 @@ import java.util.*
 
 fun main() {
     //write your code here
+    val rollDice={ sides: Int->if (sides==0) 0 else Random().nextInt(sides)+1 }
+    repeat(10) { println(rollDice(20)) }
 }

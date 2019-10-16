@@ -16,8 +16,13 @@ fun main() {
     //Write your code below this line
 
     //Create the ranges below this line
-
+    val numrange=1..4
+    val strrange='a'..'q'
     //Use the ranges with an if statement below this line
 
     //Iterate over the ranges below this line
+    for (num in numrange) print(num)
+    for (str in strrange) print(str)
+    for (num in numrange step 2) print(num)
+    for (str in strrange.reversed()) print(str)
 }

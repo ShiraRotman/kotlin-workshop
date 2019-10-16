@@ -9,4 +9,5 @@ package day1.lecture3.exercises
 
 fun main(){
     //write your code here
+    repeat(4) { index->println("$index: Shira!") }
 }

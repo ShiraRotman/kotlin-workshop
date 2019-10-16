@@ -15,4 +15,9 @@ package day1.lecture1.exercises
 
 fun main() {
     //Write your code here
+    var rainbowColor="yellow";
+    println(rainbowColor);
+    rainbowColor="red";
+    println(rainbowColor);
+    val blackColor="black";
 }

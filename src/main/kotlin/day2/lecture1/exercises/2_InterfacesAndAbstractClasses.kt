@@ -26,6 +26,21 @@ package day2.lecture1.exercises
  * Then add the Grinder interface to the Curry class.
  *
  */
+abstract class Spice(val name: String,val spiciness: Int=5)
+{
+    abstract fun prepareSpice()
+}
+
+interface Grinder
+{
+    fun grind() { println("Ground!") }
+}
+
+class Curry(name: String,spiciness: Int): Spice(name,spiciness),Grinder
+{
+    override fun prepareSpice() { grind() }
+}
+
 fun main() {
     //Write your code below this line
 }

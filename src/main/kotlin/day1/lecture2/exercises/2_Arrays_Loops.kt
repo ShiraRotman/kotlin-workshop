@@ -11,10 +11,13 @@ package day1.lecture2.exercises
 
 fun main() {
     //Write your code below this line
+    val numbers=Array(6) { i->i*10 }
 
     //uncomment the next line when you done "numbers" array
-    //println(numbers.toList())
-
+    println(numbers.toList())
+    val strings= mutableListOf<String>()
+    for (num in numbers)
+        strings.add(num.toString())
     //uncomment the next line after you made the loop
-    //println(list)
+    println(strings)
 }

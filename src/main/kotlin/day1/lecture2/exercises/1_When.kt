@@ -12,4 +12,11 @@ package day1.lecture2.exercises
  */
 fun main() {
     //Write your code below this line
+    val name="Shira"
+    when (name.length)
+    {
+        0 -> println("You have no name???")
+        in 2..12 -> println("$name (${name.length})")
+        else -> println("OK name")
+    }
 }

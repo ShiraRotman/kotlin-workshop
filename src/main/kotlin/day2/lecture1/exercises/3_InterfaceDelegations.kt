@@ -23,21 +23,3 @@ package day2.lecture1.exercises
 fun main() {
     //Write your code below this line
 }
-
-//abstract class Spice(val spiciness :Int = 5){
-//    abstract val name :String
-//    abstract fun prepareSpice()
-//}
-//
-//class Curry(spiciness :Int) : Spice(spiciness), Grinder {
-//    override val name: String = this::class.simpleName.toString()
-//    override fun prepareSpice() {
-//        grind()
-//    }
-//}
-//
-//interface Grinder{
-//    fun grind(){
-//        println("I'm grinding!!")
-//    }
-//}
