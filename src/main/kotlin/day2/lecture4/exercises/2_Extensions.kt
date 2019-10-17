@@ -1,5 +1,7 @@
 package day2.lecture4.exercises
 
+import kotlin.random.Random
+
 /**
  * It can be useful to know the weight of a book, for example, for shipping.
  * The weight of a book can change because sometimes pages get torn, and the page count changes.
@@ -15,6 +17,30 @@ package day2.lecture4.exercises
  *
  * Note: If you don’t want to give your puppy a book, then create a puzzle toy class and fill it with treats.
  */
+fun Book.weight()=pages*1.5
+fun Book.tornPages(numTorn: Int)
+{
+    when
+    {
+        numTorn<=0 -> throw IllegalArgumentException("Number of torn pages must be positive!")
+        numTorn>pages -> pages=0
+        else -> pages-=numTorn
+    }
+}
+
+class Puppy
+{
+    companion object { const val MAX_TORN=50; }
+    fun playWithBook(book: Book) { book.tornPages(Random.nextInt(MAX_TORN)+1) }
+}
+
 fun main() {
     //Write your code below this line
+    val book=Book("IT","King",1986,1500)
+    val puppy=Puppy()
+    while (book.pages>0)
+    {
+        puppy.playWithBook(book)
+        println("Now my book has only ${book.pages} pages...")
+    }
 }

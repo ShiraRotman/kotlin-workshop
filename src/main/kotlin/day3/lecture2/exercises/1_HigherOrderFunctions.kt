@@ -10,5 +10,10 @@ package day3.lecture2.exercises
  * @return A filtered list based on the [filter] lambda
  */
 
-fun filter() {
+fun <E> MutableList<E>.filter(filter: (E)->Boolean): MutableList<E>
+{
+    val filteredList= mutableListOf<E>()
+    for (elem in this)
+    { if (filter(elem)) filteredList.add(elem) }
+    return filteredList
 }

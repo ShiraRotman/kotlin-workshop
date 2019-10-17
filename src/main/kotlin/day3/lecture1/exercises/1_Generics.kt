@@ -29,6 +29,30 @@ package day3.lecture1.exercises
  * 			If the materials needed are less than 500, print "small building", otherwise, print "large building".
  *
  */
+open class BaseBuildingMaterial(val numberNeeded: Int=1)
+{
+    companion object
+    {
+        fun <T: Building<BaseBuildingMaterial>> isSmallBuilding(building: T)
+        {
+            if (building.actualMaterialsNeeded<500) println("small building")
+            else println("large building")
+        }
+    }
+}
+
+class Wood: BaseBuildingMaterial(4)
+class Brick: BaseBuildingMaterial(8)
+
+class Building<out T: BaseBuildingMaterial>(val material: T)
+{
+    val baseMaterialsNeeded=100
+    val actualMaterialsNeeded=baseMaterialsNeeded*material.numberNeeded
+    fun build() { println("$actualMaterialsNeeded ${material::class.simpleName} required") }
+}
+
 fun main() {
     //Write your code below this line
+    val building=Building(Wood())
+    building.build()
 }

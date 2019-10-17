@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d934aaf-cce8-49b0-a507-f100c489caf6" name="Default Changelist" comment="Jvm" />
+    <list default="true" id="9d934aaf-cce8-49b0-a507-f100c489caf6" name="Default Changelist" comment="Jvm">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day2/lecture4/exercises/1_ConstVal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day2/lecture4/exercises/1_ConstVal.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day2/lecture4/exercises/2_Extensions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day2/lecture4/exercises/2_Extensions.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day3/lecture1/exercises/1_Generics.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day3/lecture1/exercises/1_Generics.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day3/lecture2/exercises/1_HigherOrderFunctions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day3/lecture2/exercises/1_HigherOrderFunctions.kt" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +67,11 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Confirmation" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Hadas\Downloads\kotlin-workshop\src\main\kotlin\day3\lecture2\solutions" />
+      <recent name="C:\Users\Hadas\Downloads\kotlin-workshop\src\main\kotlin\day3\lecture2\exercises" />
+      <recent name="C:\Users\Hadas\Downloads\kotlin-workshop\src\main\kotlin\day2\lecture4\exercises" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="day1" />
     </key>
@@ -70,11 +81,6 @@
       <recent name="C:\Users\Hadas\Downloads\kotlin-workshop\src\main\kotlin\day2\lecture4\solutions" />
       <recent name="C:\Users\Hadas\Downloads\kotlin-workshop\src\main\kotlin\day2\lecture3\solutions" />
       <recent name="C:\Users\Hadas\Downloads\kotlin-workshop\src\main\kotlin\day2\lecture1\solutions" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Hadas\Downloads\kotlin-workshop\src\main\kotlin\day3\lecture2\solutions" />
-      <recent name="C:\Users\Hadas\Downloads\kotlin-workshop\src\main\kotlin\day3\lecture2\exercises" />
-      <recent name="C:\Users\Hadas\Downloads\kotlin-workshop\src\main\kotlin\day2\lecture4\exercises" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -89,38 +95,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.day2.lecture3.exercises._2_CollectionsKt">
+  <component name="RunManager" selected="Kotlin.day3.lecture1.exercises._1_GenericsKt">
     <configuration default="true" type="AndroidJUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="day1.lecture3.exercises._4_LambdasKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="kotlin-workshop" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="day1.lecture3.exercises._4_LambdasKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="day1.lecture4.exercises._1_ClassesKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="kotlin-workshop" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="day1.lecture4.exercises._1_ClassesKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="day2.lecture2.exercises._1_DataClassKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
@@ -162,13 +142,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="day2.lecture4.exercises._2_ExtensionsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlin-workshop" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="day2.lecture4.exercises._2_ExtensionsKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="day3.lecture1.exercises._1_GenericsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlin-workshop" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="day3.lecture1.exercises._1_GenericsKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.day3.lecture1.exercises._1_GenericsKt" />
+        <item itemvalue="Kotlin.day2.lecture4.exercises._2_ExtensionsKt" />
         <item itemvalue="Kotlin.day2.lecture3.exercises._2_CollectionsKt" />
         <item itemvalue="Kotlin.day2.lecture3.exercises._1_PairsKt" />
         <item itemvalue="Kotlin.day2.lecture2.exercises._1_DataClassKt" />
-        <item itemvalue="Kotlin.day1.lecture4.exercises._1_ClassesKt" />
-        <item itemvalue="Kotlin.day1.lecture3.exercises._4_LambdasKt" />
       </list>
     </recent_temporary>
   </component>
