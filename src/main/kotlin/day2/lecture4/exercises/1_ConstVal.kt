@@ -20,7 +20,12 @@ fun main() {
     //Write your code below this line
 }
 
+const val MAX_BOOKS=5;
 class Book(val title: String, val author: String, val year: Int){
+    companion object { const val BASE_URL="http://borrow.com" }
+    var numBorrowed: Int=0
+    fun canBorrow()=(numBorrowed<MAX_BOOKS)
+    fun printUrl() { println("$BASE_URL/$title.html") }
 
     fun getTitleAndAuthor(): Pair<String,String>{
         return Pair(title, author)

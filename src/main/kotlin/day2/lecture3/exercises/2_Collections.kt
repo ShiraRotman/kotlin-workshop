@@ -16,5 +16,10 @@ package day2.lecture3.exercises
  * mapOf() may come in handy.
  */
 fun main() {
-
+    val allBooks=setOf("Dumb","Stupid","Silly")
+    val library=mapOf("Shakespear" to allBooks)
+    println(allBooks.any() { it.equals("Hamlet") })
+    val moreBooks=mutableMapOf<String,String>()
+    moreBooks.put("IT","Stephen King")
+    moreBooks.getOrPut("Flower",{"Fairy"})
 }

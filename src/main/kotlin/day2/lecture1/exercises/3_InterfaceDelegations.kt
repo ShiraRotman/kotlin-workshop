@@ -20,6 +20,16 @@ package day2.lecture1.exercises
  * so you can move it to the parent class.
  * Change your code so that the SpiceColor interface is added to the Spice class and inherited by Curry.
  */
+interface SpiceColor
+{
+    val color: String
+}
+
+object YellowSpiceColor: SpiceColor
+{
+    override val color="Yellow"
+}
+
 fun main() {
     //Write your code below this line
 }

@@ -18,6 +18,15 @@ package day2.lecture3.exercises
  * such as: “Here is your book X written by Y in Z.”
  *
  */
+class Book(val title: String,val author: String,val year: Int)
+{
+    fun basicData()=Pair(title,author)
+    fun extendedData()=Triple(title,author,year)
+}
+
 fun main() {
     //Write your code below this line
+    val book=Book("Tralala","Crazy",2020)
+    with (book)
+    { println("Here is your book $title written by $author in $year.") }
 }

@@ -2,25 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d934aaf-cce8-49b0-a507-f100c489caf6" name="Default Changelist" comment="Jvm">
-      <change beforePath="$PROJECT_DIR$/.idea/kotlin-workshop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlin-workshop.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day1/lecture1/exercises/1_Operators.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1/lecture1/exercises/1_Operators.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day1/lecture1/exercises/2_Variables.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1/lecture1/exercises/2_Variables.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day1/lecture1/exercises/3_NullSafety.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1/lecture1/exercises/3_NullSafety.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day1/lecture1/exercises/4_Strings.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1/lecture1/exercises/4_Strings.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day1/lecture2/exercises/1_When.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1/lecture2/exercises/1_When.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day1/lecture2/exercises/2_Arrays_Loops.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1/lecture2/exercises/2_Arrays_Loops.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day1/lecture2/exercises/3_Ranges.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1/lecture2/exercises/3_Ranges.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day1/lecture2/exercises/4_Expressions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1/lecture2/exercises/4_Expressions.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day1/lecture3/exercises/1_Functions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1/lecture3/exercises/1_Functions.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day1/lecture3/exercises/2_Filters.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1/lecture3/exercises/2_Filters.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day1/lecture3/exercises/3_Repeat.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1/lecture3/exercises/3_Repeat.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day1/lecture3/exercises/4_Lambdas.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1/lecture3/exercises/4_Lambdas.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day1/lecture4/exercises/1_Classes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1/lecture4/exercises/1_Classes.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day2/lecture1/exercises/1_inheretence.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day2/lecture1/exercises/1_inheretence.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/day2/lecture1/exercises/2_InterfacesAndAbstractClasses.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day2/lecture1/exercises/2_InterfacesAndAbstractClasses.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/day2/lecture1/exercises/3_InterfaceDelegations.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day2/lecture1/exercises/3_InterfaceDelegations.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day2/lecture2/exercises/1_DataClass.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day2/lecture2/exercises/1_DataClass.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day2/lecture2/exercises/2_SpecialPurposeClasses.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day2/lecture2/exercises/2_SpecialPurposeClasses.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day2/lecture3/exercises/1_Pairs.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day2/lecture3/exercises/1_Pairs.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day2/lecture3/exercises/2_Collections.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day2/lecture3/exercises/2_Collections.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day2/lecture4/exercises/1_ConstVal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day2/lecture4/exercises/1_ConstVal.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -109,51 +98,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.day1.lecture4.exercises._1_ClassesKt">
+  <component name="RunManager" selected="Kotlin.day2.lecture3.exercises._2_CollectionsKt">
     <configuration default="true" type="AndroidJUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="day1.lecture3.exercises._1_FunctionsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="kotlin-workshop" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="day1.lecture3.exercises._1_FunctionsKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="day1.lecture3.exercises._2_FiltersKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="kotlin-workshop" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="day1.lecture3.exercises._2_FiltersKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="day1.lecture3.exercises._3_RepeatKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="kotlin-workshop" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="day1.lecture3.exercises._3_RepeatKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="day1.lecture3.exercises._4_LambdasKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
@@ -182,13 +132,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="day2.lecture2.exercises._1_DataClassKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlin-workshop" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="day2.lecture2.exercises._1_DataClassKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="day2.lecture3.exercises._1_PairsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlin-workshop" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="day2.lecture3.exercises._1_PairsKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="day2.lecture3.exercises._2_CollectionsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlin-workshop" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="day2.lecture3.exercises._2_CollectionsKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.day2.lecture3.exercises._2_CollectionsKt" />
+        <item itemvalue="Kotlin.day2.lecture3.exercises._1_PairsKt" />
+        <item itemvalue="Kotlin.day2.lecture2.exercises._1_DataClassKt" />
         <item itemvalue="Kotlin.day1.lecture4.exercises._1_ClassesKt" />
         <item itemvalue="Kotlin.day1.lecture3.exercises._4_LambdasKt" />
-        <item itemvalue="Kotlin.day1.lecture3.exercises._3_RepeatKt" />
-        <item itemvalue="Kotlin.day1.lecture3.exercises._2_FiltersKt" />
-        <item itemvalue="Kotlin.day1.lecture3.exercises._1_FunctionsKt" />
       </list>
     </recent_temporary>
   </component>
