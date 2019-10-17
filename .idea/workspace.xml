@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d934aaf-cce8-49b0-a507-f100c489caf6" name="Default Changelist" comment="Jvm">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day2/lecture1/exercises/2_InterfacesAndAbstractClasses.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day2/lecture1/exercises/2_InterfacesAndAbstractClasses.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day2/lecture1/exercises/3_InterfaceDelegations.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day2/lecture1/exercises/3_InterfaceDelegations.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day2/lecture2/exercises/1_DataClass.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day2/lecture2/exercises/1_DataClass.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day2/lecture2/exercises/2_SpecialPurposeClasses.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day2/lecture2/exercises/2_SpecialPurposeClasses.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day2/lecture3/exercises/1_Pairs.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day2/lecture3/exercises/1_Pairs.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day2/lecture3/exercises/2_Collections.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day2/lecture3/exercises/2_Collections.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day2/lecture4/exercises/1_ConstVal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day2/lecture4/exercises/1_ConstVal.kt" afterDir="false" />
-    </list>
+    <list default="true" id="9d934aaf-cce8-49b0-a507-f100c489caf6" name="Default Changelist" comment="Jvm" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
